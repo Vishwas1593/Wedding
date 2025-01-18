@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.left{
+    position: fixed;
+    display: inline;
+    width: 50vw;
+    height: 20vh;
+    background-color: blueviolet;
+}
+
+
+
+.right{
+    position: relative;
+    margin-left: 50vw;
+    display: inline;
+    width: 46vw;
+    height: fit-content;
+    /* background-color: rgb(151, 219, 25); */
+}
+
+.bridegroom img{
+    width: 50vw;
+    height: 100vh;
+}
+
+.centered{
+    margin-top: -70vh;
+    margin-left: 1vw;
+    text-align: center;
+    line-height: 2;
+}
+
+
+.centered h3{
+    color: rgb(185, 230, 24);
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+.centered p{
+    color: rgb(185, 230, 24);
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+ 
+.timer{
+    display: flex;
+    margin-left:10vw ;
+
+}
+
+
+#date{
+    font-size: 20px;
+    color: rgb(185, 230, 24);
+}
+
+
+.t1{
+    width: 100px;
+    height: 100px;
+    border-style: dotted;
+    padding: 5px;
+    margin: 5px;
+    border-color: white;
+    
+}
+
+
+.t1 p{
+    font-size: 20px;
+}
+
+#day{
+    background-color: blueviolet;
+}
+
+
+.event{
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.event1 h2{
+    text-align: center;
+    color: rgba(10, 3, 139,0.8);
+    font-family: sans-serif;
+}
+
+
+.event1 p{
+    color: rgba(10, 3, 139,0.8);
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.event2{
+    /* display:flex; */
+    columns: 2;
+    margin: 10px;
+    align-content: center;
+}
+
+.event2_1{
+    border-style: dashed;
+    width: 20vw;
+    height: 22vh;
+    border-color: rgb(250, 92, 44);
+    background-color:rgba(250, 92, 44,0.2);
+    border-image-width: 0.1px;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.event2_1 h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(10, 3, 139,0.8);
+}
+
+.event2_1 p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgba(10, 3, 139,0.8);
+}
+
+
+.about{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about img{
+    border-radius: 5px ;
+}
+
+.aboutcontent h2{
+    color: rgba(10, 3, 139,0.8);
+    text-align: center;
+}
+
+.aboutcontent p{
+    color: rgba(10, 3, 139,0.8);
+    text-align: justify;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+
+
+.venue{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.venue img{
+    border-radius: 5px;
+}
+.Venuecontent h2{
+    color: rgba(10, 3, 139,0.8);
+    text-align: center;
+}
+
+.Venuecontent p{
+    color: rgba(10, 3, 139,0.8);
+    text-align: justify;
+    padding: 15px;
+}
+
+
+/* Default style */
+body {
+    background-color: white;
+  }
+  
+  /* If the screen width is 600px or less */
+  @media (max-width: 480px) {
+    
+    body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.left{
+    position: relative;
+    display: inline;
+    width: 50vw;
+    height: 20vh;
+    background-color: blueviolet;
+    justify-content: center;
+    
+}
+
+
+
+.right{
+    /* position: fixed; */
+    margin-left: 1vw;
+    display: inline;
+    width: 50vw;
+    height: fit-content;
+    /* z-index: -1; */
+    /* background-color: rgb(151, 219, 25); */
+}
+
+.bridegroom img{
+    width: 100vw;
+    height: fit-content;
+}
+
+
+.centered{
+    margin-top: -30vh;
+    margin-left: 1vw;
+    text-align: center;
+    line-height: 2;
+}
+
+
+.centered h3{
+    color: rgb(185, 230, 24);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.centered p{
+    color: rgb(185, 230, 24);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+ 
+.timer{
+    display: flex;
+    margin-left:15vw ;
+
+}
+
+
+#date{
+    font-size: 15px;
+    color: rgb(185, 230, 24);
+}
+
+
+.t1{
+    width: 50px;
+    height: 50px;
+    border-style: dotted;
+    padding: 1px;
+    margin: 1px;
+    border-color: white;
+    
+}
+
+
+.t1 p{
+    font-size: 10px;
+}
+
+#day{
+    background-color: blueviolet;
+}
+
+
+.event{
+    display: inline-block;
+    width: 100vw;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+.event1 h2{
+    text-align: center;
+    color: rgba(10, 3, 139,0.8);
+    font-family: sans-serif;
+}
+
+
+.event1 p{
+    color: rgba(10, 3, 139,0.8);
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.event2{
+    display:block;
+    /* columns: 2; */
+    margin: 10px;
+    align-content: center;
+}
+
+.event2_1{
+    border-style: dashed;
+    width: 40vw;
+    height: fit-content;
+    border-color: rgb(250, 92, 44);
+    background-color:rgba(250, 92, 44,0.2);
+    border-image-width: 0.1px;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.event2_1 h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(10, 3, 139,0.8);
+}
+
+.event2_1 p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgba(10, 3, 139,0.8);
+}
+
+
+
+.about{
+    width: 100vw;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.about img{
+    width: 95vw;
+    margin: auto;
+    border-radius: 5px ;
+}
+
+.aboutcontent h2{
+    color: rgba(10, 3, 139,0.8);
+    text-align: center;
+}
+
+.aboutcontent p{
+    color: rgba(10, 3, 139,0.8);
+    text-align: justify;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+
+
+.venue{
+    width: 100vw;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    /* justify-content: center; */
+    justify-items: center;
+}
+
+
+.venue img{
+    border-radius: 5px;
+    width: 95vw;
+    margin: auto;
+    border-radius: 5px ;
+}
+.Venuecontent h2{
+    color: rgba(10, 3, 139,0.8);
+    text-align: center;
+}
+
+.Venuecontent p{
+    color: rgba(10, 3, 139,0.8);
+    text-align: justify;
+    padding: 15px;
+}
+
+
+
+
+  }
+  
